@@ -14,7 +14,7 @@ print(x)
 # Using y, change x so that it is [1, 2, 3, 4, 8, 9, 10]
 # YOUR CODE HERE
 for num in y:
-  x.append(num)
+    x.append(num)
 
 print(x)
 
@@ -37,4 +37,4 @@ print(len(x))
 # YOUR CODE HERE
 
 for num in x: 
-  print(num * 1000)
+    print(num * 1000)
