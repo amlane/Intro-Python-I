@@ -27,6 +27,7 @@ date_input = sys.argv[1:len(sys.argv)]
 todays_date = datetime.now()
 c = calendar.TextCalendar(calendar.SUNDAY)
 
+
 if len(date_input) == 0:
     # Print calendar for current month
     str = c.formatmonth(todays_date.year, todays_date.month)
